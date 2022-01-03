@@ -1,0 +1,5 @@
+venv
+enviroment
+tests
+__pycache__
+.coverage
