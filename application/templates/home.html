@@ -1,0 +1,14 @@
+{% extends "layout.html" %} {% block title %} <h1>Home</h1> {% endblock title %} 
+
+{% block content%}
+<p>
+  Here are the tasks you need to do!
+</p>
+{% for note in all_notes %}
+  <p>
+      Task no. #{{ note.id }}<br>
+      {{ note.description }}<br>
+      {{ note.date }}<br>
+  </p>
+{% endfor %}
+{% endblock %}
