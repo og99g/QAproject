@@ -5,3 +5,4 @@ flask_testing
 pytest
 pytest-cov
 flask_login
+pymysql
